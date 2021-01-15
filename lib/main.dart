@@ -12,13 +12,15 @@ class Myapp extends StatelessWidget {
         backgroundColor: Colors.teal[800],
         body: SafeArea(
           child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
-            Text(
-              'Hello World',
-              style: TextStyle(
-                  fontSize: 40,
-                  color: Colors.white,
-                  fontWeight: FontWeight.bold,
-                  fontFamily: 'Pacifico'),
+            Center(
+              child: Text(
+                'Hello World',
+                style: TextStyle(
+                    fontSize: 40,
+                    color: Colors.white,
+                    fontWeight: FontWeight.bold,
+                    fontFamily: 'Pacifico'),
+              ),
             ),
             Text(
               'MLH Local Hack Day',
